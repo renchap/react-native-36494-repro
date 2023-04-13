@@ -17,6 +17,7 @@ import {
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 import {Repro} from './Repro';
+import {Repro2} from './Repro2';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -35,6 +36,7 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Repro />
+        <Repro2 />
       </ScrollView>
     </SafeAreaView>
   );
